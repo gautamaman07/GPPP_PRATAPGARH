@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbargradient"
+        android:id="@+id/toolbar2"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Info"
+        android:textSize="23dp"
+        app:fontFamily="@font/aref_ruqaa"
+        android:textColor="#ffffff"/>
+    </androidx.appcompat.widget.Toolbar>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:period="1000"
+        app:auto_cycle="true"
+        android:layout_marginTop="2dp"
+        app:error_image="@drawable/welcome"
+        app:placeholder="@drawable/welcome"
+        android:id="@+id/imageslider"
+        app:corner_radius="5"
+        app:delay="3000"
+        />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#f2f2f2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="Bahnschrift SemiBold"
+                        android:gravity="center"
+                        android:text="Courses"
+                        android:textColor="#000"
+                        android:textSize="27sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/baumans" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="-3dp"
+                        android:background="@drawable/toolbargradient" />
+
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-3dp"
+                        android:background="@drawable/toolbargradient" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="center"
+                                android:layout_margin="12dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="6dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:gravity="center"
+                                    android:minWidth="300dp"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="1dp"
+                                        android:drawableStart="@drawable/ic_computer_black_24dp"
+                                        android:drawableLeft="@drawable/ic_computer_black_24dp"
+                                        android:gravity="center"
+                                        android:text="  Computer Science "
+                                        android:textColor="#0099cc"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        app:fontFamily="@font/expletus_sans" />
+
+
+                                    <TextView
+                                        android:layout_width="300dp"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/computer"
+                                        android:textColor="#000" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="center"
+                                android:layout_margin="12dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="6dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:gravity="center"
+                                    android:minWidth="300dp"
+                                    android:orientation="vertical"
+
+                                    android:padding="10dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="1dp"
+                                        android:gravity="center"
+
+                                        android:text="  Civil Engineering "
+                                        android:textColor="#0099cc"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        app:fontFamily="@font/expletus_sans" />
+
+
+                                    <TextView
+                                        android:layout_width="300dp"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/aboutcivil"
+                                        android:textColor="#000" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="center"
+                                android:layout_margin="12dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="6dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:gravity="center"
+                                    android:minWidth="300dp"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="1dp"
+                                        android:drawableStart="@drawable/electrical"
+                                        android:drawableLeft="@drawable/electrical"
+                                        android:gravity="center"
+                                        android:text="  Electrical Engineering "
+                                        android:textColor="#0099cc"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        app:fontFamily="@font/expletus_sans" />
+
+
+                                    <TextView
+                                        android:layout_width="300dp"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/aboutelectrical"
+                                        android:textColor="#000" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:fontFamily="Bahnschrift SemiBold"
+                        android:gravity="center"
+                        android:text="Facilities"
+                        android:textColor="#000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/toolbargradient" />
+
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-3dp"
+                        android:background="@drawable/toolbargradient" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="12dp"
+                        android:layout_marginTop="-13dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:minWidth="700dp"
+
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:gravity="center"
+                                android:text="•	Computer Center"
+                                android:textColor="#000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="•	Laboratories"
+                                android:textColor="#000"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="•	Library"
+                                android:textColor="#000"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="•	Workshop"
+                                android:textColor="#000"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="•	Boy’s Hostel(60 Seater)"
+                                android:textColor="#000"
+
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="Bahnschrift SemiBold"
+                        android:gravity="center"
+                        android:text="Contact Us"
+                        android:textColor="#000"
+                        android:textSize="25sp"
+
+                        android:textStyle="bold"
+                        app:fontFamily="@font/aref_ruqaa" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/toolbargradient" />
+
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-3dp"
+                        android:background="@drawable/toolbargradient" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="12dp"
+                        android:layout_marginTop="-24dp"
+                        app:cardCornerRadius="12dp"
+
+                        app:cardElevation="6dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:minWidth="700dp"
+
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/gp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:gravity="center"
+                                android:text="@string/contactus"
+                                android:textColor="#000"
+                                android:textSize="22sp"
+                                app:fontFamily="@font/baumans" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="@string/con"
+                                android:textColor="#000"
+
+                                android:textSize="22sp"
+                                app:fontFamily="@font/baumans" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:text="@string/pincode"
+                                android:textColor="#000"
+
+                                android:textSize="22sp"
+                                app:fontFamily="@font/baumans" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="25dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginTop="9dp"
+                                    android:drawableLeft="@drawable/email"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:text="     gppremdharpatti@gmail.com"
+                                    android:textColor="#FF000000"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="25dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_phone_black_24dp"
+                                    android:drawableLeft="@drawable/ic_phone_black_24dp"
+                                    android:text="   99350210130"
+                                    android:textColor="#FF000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:id="@+id/mapPic"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</LinearLayout>

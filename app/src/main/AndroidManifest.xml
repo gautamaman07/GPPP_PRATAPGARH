@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gppp.pratapgarh.gppp_pratapgarh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="gppp.pratapgarh.gppp_pratapgarh.GPPP_PRATAPGARH"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.ViewWallpaper"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.ListWallpaperActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.ListWallpaperActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.NewGallery"/>
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.NewGallery"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"/>
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Ebooks"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.student_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.LogOut" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.AdminPanel"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.FullScreenActivity" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Gallery"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.NewsFeed"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"/>
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.StudentDetail" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.UserProfile"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.otherinfo"
+            android:parentActivityName="gppp.pratapgarh.gppp_pratapgarh.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.student_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.electrical_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.civil_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.computer_science_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.ourfaculty"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gppp.pratapgarh.gppp_pratapgarh.Dashboard" />
+        </activity>
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.About_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Student_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Student_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Developer_Team"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="gppp.pratapgarh.gppp_pratapgarh.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="gppp.pratapgarh.gppp_pratapgarh.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

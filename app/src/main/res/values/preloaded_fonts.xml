@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amarante</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/aubrey</item>
+        <item>@font/baumans</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/croissant_one</item>
+        <item>@font/expletus_sans</item>
+        <item>@font/galdeano</item>
+        <item>@font/glegoo</item>
+        <item>@font/unifrakturmaguntia</item>
+    </array>
+</resources>

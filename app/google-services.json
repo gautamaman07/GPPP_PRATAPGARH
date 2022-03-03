@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "922173772955",
+    "firebase_url": "https://gppp-pratapgarh.firebaseio.com",
+    "project_id": "gppp-pratapgarh",
+    "storage_bucket": "gppp-pratapgarh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922173772955:android:41410c1281e187caf7a23e",
+        "android_client_info": {
+          "package_name": "gppp.pratapgarh.gppp_pratapgarh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922173772955-nbjpc336g2l55udj0sgo9v0g90o3m2pa.apps.googleusercontent.com",
+          "client_type": 3,
+          "package_name": "gppp.pratapgarh.gppp_pratapgarh"
+
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEnAb-jcntjUnRZQwdle-uR7LcMuxW2II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922173772955-nbjpc336g2l55udj0sgo9v0g90o3m2pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

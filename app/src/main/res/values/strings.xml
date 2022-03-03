@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GPPP_PRATAPGARH</string>
+    <string name="title1">GOVT.POLYTECHNIC PREMDHAR PATTI PRATAPGARH</string>
+    <string name="text_info">Light Theme</string>
+    <string name="navigation_open">open navigation</string>
+    <string name="navigation_close">close navigation</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="your_mobile_no">Mobile Number</string>
+    <string name="Course">Course</string>
+    <string name="skp">Stream</string>
+    <string name="aboutus">
+Government polytechnic premdhar patti, pratapgarh was established in 2014. It is associated to board of technical education, Uttar Pradesh and affiliated to AICTE. Students are admitted in diploma courses through State level Joint entrance examination.
+
+</string>
+
+
+    <string name="vision">Our vision is to develop institute as centre of excellence for imparting technical education in the emerging technologies producing technicians, entrepreneurs, relevant to the real world of work and making them self reliant as well as responsive to the industry and serving the society at large.
+    </string>
+
+    <string name="mission">
+Our mission is to achieve excellence in application oriented research in selected areas of technology to contribute to the development of the region and the nation.
+
+</string>
+    <string name="principalmessage">Welcome to Government polytechnic premdhar patti, pratapgarh. We are advancing institute’s tradition of excellence in technical education through high quality programs in teaching.
+Our primary goal is to become one of the most prominent and excellent technical institute. We are fortunate to have talented, highly committed teaching and supporting staff here to ensure the learning environment of our students is the best it can be. Our students are innovators, engineers and aspiring leaders. We seek to install in our students a passion for learning that will bring the knowledge and understanding required for a positive contribution to the community.
+Thank You.
+</string>
+
+    <string name="contactus">Government Polytechnic
+        </string>
+    <string name="con">Premdhar Patti, Pratapgarh (U.P)</string>
+    <string name="pincode">Pincode - 230001</string>
+
+
+    <string name="aboutelectrical">Diploma in Electrical Engineering is a 3-year course which is designed to enhance skills.The common subjects of this course include Electrical Machines, Elements of Electrical Engineering, Embedded System, Transmission and Distribution, Electrical Installation, etc.
+        The minimum eligibility criterion required for the candidates is to pass 10th with minimum 50% marks.</string>
+
+
+    <string name="aboutcivil">Diploma in Civil Engineering is a 3-year long course in engineering, specializing in the design,
+        construction, and maintenance of physical and naturally-built environment, such as roads, bridges, canals,
+        dams and buildings. The minimum eligibility criterion required for the candidates is to pass 10th with minimum 50% marks.</string>
+
+
+    <string name="computer">Diploma in Computer Science and Engineering is a 3 year long professional course in engineering.
+        The course can also be pursued after successful completion of the 10+2 level of education in the Science stream from
+        a recognized educational Board with minimum 50% aggregate marks.  Also, 10+2 or ITI-qualified
+        students can avail admission to the course’s second year.</string>
+
+
+    <string name="admission10th">For the first year, Polytechnic Course duration is prescribed for 3 years, and it is designed for one who has done 10th education from the recognized board with at least 35% aggregate marks.</string>
+
+
+    <string name="admission12th">The admission seekers who tend to lateral entry (2nd year) in Diploma Polytechnic can get admission under the Direct Polytechnic Admission method but this method needs applicants to ensure that he/she has done 12th with science subject OR I.T.I. In short, you may say that minimum qualification to Polytechnic Lateral admission is either 12th (P.C.M) or ITI. One most important things you must note that admission offer to be given to the candidates after verifying the original academic certificates and rest required documents.</string>
+</resources>
